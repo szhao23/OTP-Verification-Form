@@ -4,10 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OTP-Verification-Form-Template</title>
+    <title>OTP Verification Form</title>
     <link rel="stylesheet" href="styles.css" />
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="index.js" defer></script>
   </head>
   <body>
-    <h1>Hello There! -Obi Wan Kenobi</h1>
+    <div class="container">
+      <header>
+        <i class="bx bxs-check-shield"></i>
+      </header>
+      <h4>Enter OTP Code</h4>
+      <form action="#">
+        <div class="input-field">
+          <input type="number" />
+          <input type="number" disabled />
+          <input type="number" disabled />
+          <input type="number" disabled />
+        </div>
+        <button>Verify OTP</button>
+      </form>
+    </div>
   </body>
 </html>
